@@ -1,25 +1,35 @@
 function addProblem(req,res){
-
+    return res.status(501).json({
+        message: "Not implemented"
+    })
 }
 
-function getProblem(){
+function getProblem(req,res){
 
-
+    return res.status(501).json({
+        message: "Not implemented"
+    })
   
 }
-function getProblems(){
+function getProblems(req,res){
 
-
+    return res.status(501).json({
+        message: "Not implemented"
+    })
   
 }
 
-function deleteProblem(){
-
+function deleteProblem(req,res){
+    return res.status(501).json({
+        message: "Not implemented"
+    })
 }
 
-function upadateProblem(){
+function upadateProblem(req,res){
 
-
+    return res.status(501).json({
+        message: "Not implemented"
+    })
 }
 
 function ping(req,res) {
